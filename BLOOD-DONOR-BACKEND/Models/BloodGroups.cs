@@ -7,6 +7,6 @@ namespace BLOOD_DONOR_BACKEND.Models
         public Guid BloodGroupID { get; set; }  // Primary Key, uniqueidentifier
         public string? BloodGroupName { get; set; }  // Nullable varchar(10)
 
-        public int ? BloodCount { get; set; } = 0;
+      
     }
 }
